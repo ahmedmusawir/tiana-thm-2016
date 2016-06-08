@@ -15,7 +15,7 @@
 get_header(); ?>
 <section class="container">
 <!-- <h1>I am real praise</h1> -->
-	<div id="primary" class="content-area col-md-12 col-lg-12">
+	<div id="primary" class="content-area col-md-8 col-lg-8">
 	
 		<main id="main" class="site-main" role="main">
 
@@ -90,11 +90,11 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-	<!-- <div class="sidebar col-md-4 col-md-4"> -->
+	<div class="sidebar col-md-4 col-md-4">
 
-		<?php //get_sidebar();  ?>
+		<?php get_sidebar();  ?>
 		
-	<!-- </div> -->
+	</div>
 </section> <!-- End Container -->	
 <?php
 get_footer();
