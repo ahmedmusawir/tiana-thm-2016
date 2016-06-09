@@ -18,7 +18,7 @@ get_header(); ?>
 
 <section class="above-blog-block-1">
 	
-	<img class="img-responsive wow lightSpeedIn" src="/wp-content/uploads/2016/06/TianaMediaBlock.jpg" data-wow-duration="1s" data-wow-delay="0s" alt="">
+	<img class="img-responsive" src="/wp-content/uploads/2016/06/TianaMediaBlock.jpg" alt="">
 	
 </section>
 
@@ -31,21 +31,21 @@ get_header(); ?>
 		<div class="icon-content">
 
 			<figure class="col-sm-4 col-md-4 col-md-lg">
-				<img class="img-responsive wow bounceInLeft" src="/wp-content/uploads/2016/06/BullseyeLaptopPlay.png" data-wow-duration="1s" data-wow-delay="0s" alt="">
+				<img src="/wp-content/uploads/2016/06/BullseyeLaptopPlay.png" alt="">
 				<article class="text-content">
 					sign up for my <br>
 					free online masterclass!
 				</article>
 			</figure>
 			<figure class="col-sm-4 col-md-4 col-md-lg">
-				<img class="img-responsive wow zoomIn" src="/wp-content/uploads/2016/06/TianaBullseyeImage.png" data-wow-duration="1s" data-wow-delay="0s" alt="">
+				<img src="/wp-content/uploads/2016/06/TianaBullseyeImage.png" alt="">
 				<article class="text-content">
 					check out <br>
 					my e-courses
 				</article>
 			</figure>
 			<figure class="col-sm-4 col-md-4 col-md-lg">
-				<img class="img-responsive wow bounceInRight" src="/wp-content/uploads/2016/06/BullseyeLaptopPlay.png" data-wow-duration="1s" data-wow-delay="0s" alt="">
+				<img src="/wp-content/uploads/2016/06/BullseyeLaptopPlay.png" alt="">
 				<article class="text-content">
 					join the facebook <br>
 					community
@@ -67,13 +67,13 @@ get_header(); ?>
 		<?php
 		if ( have_posts() ) :
 
-			// if ( is_home() && ! is_front_page() ) : ?>
-				<!-- <header> -->
-					<!-- <h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1> -->
-				<!-- </header> -->
+			if ( is_home() && ! is_front_page() ) : ?>
+				<header>
+					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+				</header>
 
 			<?php
-			// endif;
+			endif;
 
 			/* Start the Loop */
 			while ( have_posts() ) : the_post();
@@ -116,7 +116,7 @@ get_header(); ?>
 		<div class="icon-content">
 
 			<figure class="col-sm-12 col-md-12 col-12">
-				<img class="center-block img-responsive wow zoomIn" src="/wp-content/uploads/2016/06/TianaBullseyeImage.png" data-wow-duration="2s" data-wow-delay="0s" alt="">
+				<img class="center-block img-responsive" src="/wp-content/uploads/2016/06/TianaBullseyeImage.png" alt="">
 			</figure>
 
 		</div>
@@ -137,21 +137,21 @@ get_header(); ?>
 		<div class="icon-content">
 
 			<figure class="col-sm-4 col-md-4 col-md-lg">
-				<img class="img-responsive wow bounceInLeft" src="/wp-content/uploads/2016/06/TianaNEWJuneAutomateDominate.png" data-wow-duration="1s" data-wow-delay="0s" alt="">
+				<img src="/wp-content/uploads/2016/06/TianaNEWJuneAutomateDominate.png" alt="">
 				<!-- <article class="text-content">
 					sign up for my <br>
 					free online masterclass!
 				</article> -->
 			</figure>
 			<figure class="col-sm-4 col-md-4 col-md-lg">
-				<img class="img-responsive wow zoomInDown" src="/wp-content/uploads/2016/06/TianaNEWJuneBullseyeFunnels.png" data-wow-duration="2s" data-wow-delay="s" alt="">
+				<img src="/wp-content/uploads/2016/06/TianaNEWJuneBullseyeFunnels.png" alt="">
 				<!-- <article class="text-content">
 					check out <br>
 					my e-courses
 				</article> -->
 			</figure>
 			<figure class="col-sm-4 col-md-4 col-md-lg">
-				<img class="img-responsive wow bounceInRight" src="/wp-content/uploads/2016/06/TianaNEWJuneGoalswithsoul.png" data-wow-duration="1s" data-wow-delay="0s" alt="">
+				<img src="/wp-content/uploads/2016/06/TianaNEWJuneGoalswithsoul.png" alt="">
 				<!-- <article class="text-content">
 					join the facebook <br>
 					community

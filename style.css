@@ -6298,8 +6298,7 @@ img {
   .site-main .nav-links {
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 1.4rem;
-    background-color: rgba(77, 77, 77, 0.85); }
+    padding-top: 1.4rem; }
     .site-main .nav-links a {
       color: #84d3ce; }
   .site-main .navigation .nav-links {
@@ -6371,32 +6370,24 @@ img {
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto; }
-  .blog-post .entry-header {
-    background-color: rgba(56, 61, 102, 0.9);
-    margin-left: 1.3rem;
-    margin-right: 1.3rem;
-    border: 1px solid #4a5187; }
-    .blog-post .entry-header h1, .blog-post .entry-header h2 {
-      font-family: 'Raleway', sans-serif;
-      text-transform: uppercase;
-      font-size: 3.2rem;
-      font-weight: 200;
-      padding-top: 0rem;
-      padding-bottom: 1rem;
-      padding-left: 2rem;
-      padding-right: 1rem; }
-      .blog-post .entry-header h1 a, .blog-post .entry-header h2 a {
-        color: #aae0dd;
-        text-decoration: none; }
-        .blog-post .entry-header h1 a:hover, .blog-post .entry-header h2 a:hover {
-          color: #c0c3dd; }
-    .blog-post .entry-header .entry-meta {
-      display: none;
-      padding-bottom: 1rem;
-      padding-left: 2rem;
-      color: #eeeeee; }
-      .blog-post .entry-header .entry-meta a {
-        color: #40b1aa; }
+  .blog-post .entry-header h1, .blog-post .entry-header h2 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 700;
+    padding-top: 0rem; }
+    .blog-post .entry-header h1 a, .blog-post .entry-header h2 a {
+      color: #5fc5bf;
+      text-decoration: none; }
+      .blog-post .entry-header h1 a:hover, .blog-post .entry-header h2 a:hover {
+        color: #383d66; }
+  .blog-post .entry-header .entry-meta {
+    display: none;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    color: #eeeeee; }
+    .blog-post .entry-header .entry-meta a {
+      color: #383d66; }
   .blog-post .featured-img {
     padding-bottom: 2rem;
     padding-left: 1.3rem;
@@ -6436,8 +6427,8 @@ img {
     padding-top: 2rem; }
     .blog-post .only-text p {
       font-family: 'Raleway', sans-serif;
-      font-size: 2rem;
-      font-variant: 300;
+      font-size: 1.8rem;
+      font-variant: 500;
       color: #646464;
       padding-top: 2rem; }
   .blog-post .entry-footer {
@@ -6445,7 +6436,13 @@ img {
     padding-top: 2rem; }
   .blog-post .moretag {
     display: block;
-    margin-top: 3rem; }
+    margin-top: 3rem;
+    background-color: transparent;
+    border: 1px solid #5FC5BF;
+    color: #383D66; }
+    .blog-post .moretag:hover {
+      background-color: #5FC5BF;
+      color: white; }
 
 .cat-links:before {
   font-family: "FontAwesome";
@@ -6638,10 +6635,82 @@ img {
 .sidebar {
   padding-right: 0;
   margin-top: 4rem;
+  /**
+   *
+   * Search Sidebar Widget
+   *
+   */
+  /**
+   *
+   * Sidebar Social Widget Using the footer social styles
+   *
+   */
+  /**
+   *
+   * 4 Image Anchor Block Widget
+   *
+   */
   /* These are technically the same, but use both */
   /* This is the dangerous one in WebKit, as it breaks things wherever */
   /* Instead use this non-standard one: */
   /* Adds a hyphen where the word breaks, if supported (No Blink) */ }
+  .sidebar .widget-title {
+    text-align: center;
+    color: #383D66 !important; }
+  .sidebar .the-search-form {
+    padding-left: 4rem;
+    padding-right: 4rem; }
+    .sidebar .the-search-form #search {
+      height: 50px; }
+    .sidebar .the-search-form #search-btn {
+      width: 150px;
+      height: 50px;
+      background-color: #383D66;
+      color: white;
+      font-size: 2.5rem; }
+      @media (max-width: 1199px) {
+        .sidebar .the-search-form #search-btn {
+          width: 80px;
+          font-size: 1.6rem; } }
+  .sidebar #text-7 .footer-social {
+    padding-top: 2rem;
+    text-align: center; }
+    .sidebar #text-7 .footer-social li {
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      background-color: #5FC5BF;
+      display: inline-block;
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out; }
+      .sidebar #text-7 .footer-social li:hover {
+        background-color: #383D66; }
+      .sidebar #text-7 .footer-social li i {
+        font-size: 3.7rem;
+        color: white;
+        padding-top: .5rem;
+        padding-left: .5rem;
+        padding-right: .5rem; }
+  .sidebar #four-img-sidebar-widget {
+    border: 1px solid #e6e6e6; }
+    .sidebar #four-img-sidebar-widget figure {
+      border: 1px solid #e6e6e6; }
+      .sidebar #four-img-sidebar-widget figure img {
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out; }
+        .sidebar #four-img-sidebar-widget figure img:hover {
+          -webkit-transform: scale(0.9) rotate(-3deg);
+          -moz-transform: scale(0.9) rotate(-3deg);
+          -ms-transform: scale(0.9) rotate(-3deg);
+          -o-transform: scale(0.9) rotate(-3deg);
+          transform: scale(0.9) rotate(-3deg);
+          -webkit-transform-origin: center top;
+          -moz-transform-origin: center top;
+          -ms-transform-origin: center top;
+          -o-transform-origin: center top;
+          transform-origin: center top; }
   .sidebar .widget_recent_comments ul li:before {
     color: #dddddd; }
   .sidebar .widget_archive ul li:before {
