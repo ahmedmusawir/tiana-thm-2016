@@ -49,8 +49,10 @@
 			            <span class="icon-bar"></span>
 			        </button>
 			    <!-- <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="http://tiana/wp-content/uploads/2016/01/TianaGustafsonLogo.png" alt=""></a> -->
-			    <!-- <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><span class="logo-text"><span class="tiana-txt">TIANA</span> GUSTAFSON  <span class="bar">|</span>  <span class="firefly">firefly media</span></span></a> -->
-			    <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><span class="logo-text"><span class="tiana-txt">TIANA</span> GUSTAFSON </a>
+			    <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"> 
+			    <span class="logo-holder"><img class="logo img-responsive" src="http://tiana-2016.local/wp-content/uploads/2016/06/logo.png" alt=""></span></a>
+			    <!-- <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><span class="logo-text"><span class="tiana-txt">TIANA</span> GUSTAFSON  
+			    <span class="bar"><img class="" src="/wp-content/uploads/2016/06/nav-arrow.jpg" alt=""></span><span class="dream-archer">dream archer</span></a> -->
 			    </div>
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -83,38 +85,13 @@
 	<header id="front-pg-header">
 
 		<?php if ( is_home() || is_single() || is_archive() || is_search() || is_404() ) : ?>
+	
 			<img class="img-responsive" src="<?php echo $front_header_image; ?>" alt="tiana img">
 
-			<!-- <div class="header-img-container">
-				<div class="col-md-7 col-lg-7">
-					<img class="header-txt-img" src="/wp-content/uploads/2016/06/header-text-img.jpg" alt="">
-				</div>
-			</div> -->
-			<div class="header-text-container hide">
-
-				<article class="header-text-box">
-					<!-- <img class="header-txt-img img-responsive" src="/wp-content/uploads/2016/06/header-text-img.jpg" alt=""> -->
-
-					<h3>ONLINE MARKETING MADE EASY.</h3>
-					<h4>
-						Join Thousands of other Entrepreneurs and get
-						Instant Access to our Online Marketing Resources.
-					</h4>
-
-					<article class="header-btn-container block-center">
-					
-						<button type="button" class="btn btn-success btn-lg " data-toggle="modal" data-target="#myModal-header">
-						  CLICK HERE TO SIGN UP!
-						</button>
-				
-					</article>
-
-
-				</article>			
-			</div>	
-			
 		<?php else : ?>
+
 			<img class="img-responsive" src="<?php echo $page_header_image; ?>" alt="tiana img">
+			
 		<?php endif; ?>
 	
 
