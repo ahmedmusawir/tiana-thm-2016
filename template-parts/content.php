@@ -24,7 +24,7 @@
 			<?php else : ?>	
 
 				<div class="featured-img">
-					<a href="<?php the_permalink(); ?>" title=""><img class="img-responsive" src="/wp-content/uploads/2016/06/empty-blog-img-jpg.jpg" alt=""></a>
+					<a href="<?php the_permalink(); ?>" title=""><img class="img-responsive" src="/wp-content/uploads/2016/06/TianaNEWJuneBlock_no-featured-version.jpg" alt=""></a>
 
 				</div>				
 

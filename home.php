@@ -19,6 +19,7 @@ get_header(); ?>
 <section class="above-blog-block-1">
 	
 	<img class="img-responsive wow lightSpeedIn" src="/wp-content/uploads/2016/06/TianaMediaBlock.jpg" data-wow-duration="1s" data-wow-delay="0s" alt="">
+	<!-- <img class="img-responsive wow zoomInUp center-block" src="/wp-content/uploads/2016/06/TianaNEWJuneTextBlock1.png" data-wow-duration="1s" data-wow-delay="0s" alt=""> -->
 	
 </section>
 
@@ -28,28 +29,44 @@ get_header(); ?>
 		
 		<h2>GET INTO ACTION! CLICK AN OPTION BELOW</h2>
 
+		<h3>
+			It's time to learn HOW to set up your OWN online systems.<br>
+			From WordPress to Lead Pages to Newsletters. No more <br>
+			guessing or paying thousands to get it done.
+		</h3>
+
 		<div class="icon-content">
 
 			<figure class="col-sm-4 col-md-4 col-md-lg">
-				<img class="img-responsive wow bounceInLeft" src="/wp-content/uploads/2016/06/BullseyeLaptopPlay.png" data-wow-duration="1s" data-wow-delay="0s" alt="">
-				<article class="text-content">
-					sign up for my <br>
-					free online masterclass!
-				</article>
+				<!-- <a href="#" target="_blank"> -->
+				<a href="https://tianastar.leadpages.co/leadbox/145df2473f72a2%3A1497094e8b46dc/5655608640405504/" target="_blank">
+					<img class="img-responsive wow bounceInLeft" src="/wp-content/uploads/2016/06/BullseyeLaptopPlay.png" data-wow-duration="1s" data-wow-delay="0s" alt="">
+					<article class="text-content">
+						sign up for my <br>
+						free online masterclass!
+					</article>
+				</a>
+
+				<script data-leadbox="145df2473f72a2:1497094e8b46dc" data-url="https://tianastar.leadpages.co/leadbox/145df2473f72a2%3A1497094e8b46dc/5655608640405504/" data-config="%7B%7D" type="text/javascript" src="https://tianastar.leadpages.co/leadbox-1465587185.js"></script>
+
 			</figure>
 			<figure class="col-sm-4 col-md-4 col-md-lg">
-				<img class="img-responsive wow zoomIn" src="/wp-content/uploads/2016/06/TianaBullseyeImage.png" data-wow-duration="1s" data-wow-delay="0s" alt="">
-				<article class="text-content">
-					check out <br>
-					my e-courses
-				</article>
+				<a href="http://tianagustafson.teachable.com/" target="_blank">
+					<img class="img-responsive wow zoomIn" src="/wp-content/uploads/2016/06/TianaBullseyeImage.png" data-wow-duration="1s" data-wow-delay="0s" alt="">
+					<article class="text-content">
+						check out <br>
+						my e-courses
+					</article>
+				</a>
 			</figure>
 			<figure class="col-sm-4 col-md-4 col-md-lg">
-				<img class="img-responsive wow bounceInRight" src="/wp-content/uploads/2016/06/BullseyeLaptopPlay.png" data-wow-duration="1s" data-wow-delay="0s" alt="">
-				<article class="text-content">
-					join the facebook <br>
-					community
-				</article>
+				<a href="https://www.facebook.com/groups/1021388401258512/" target="_blank">
+					<img class="img-responsive wow bounceInRight" src="/wp-content/uploads/2016/06/TianaNEWJuneARROWUP.png" data-wow-duration="1s" data-wow-delay="0s" alt="">
+					<article class="text-content">
+						join the facebook <br>
+						community
+					</article>
+				</a>
 			</figure>						
 
 		</div>
@@ -57,6 +74,8 @@ get_header(); ?>
 	</div>
 	
 </section>
+
+<!-- BLOG BLOCK -->
 
 <section class="container-fluid">
 
@@ -137,31 +156,31 @@ get_header(); ?>
 		<div class="icon-content">
 
 			<figure class="col-sm-4 col-md-4 col-md-lg">
-				<img class="img-responsive wow bounceInLeft" src="/wp-content/uploads/2016/06/TianaNEWJuneAutomateDominate.png" data-wow-duration="1s" data-wow-delay="0s" alt="">
-				<!-- <article class="text-content">
-					sign up for my <br>
-					free online masterclass!
-				</article> -->
+				<a href="http://tianagustafson.teachable.com/courses/goals-with-soul" target="_blank">
+					<img class="img-responsive wow bounceInLeft" src="/wp-content/uploads/2016/06/TianaNEWJuneAutomateDominate.png" data-wow-duration="1s" data-wow-delay="0s" alt="">
+				</a>
+				
 			</figure>
 			<figure class="col-sm-4 col-md-4 col-md-lg">
-				<img class="img-responsive wow zoomInDown" src="/wp-content/uploads/2016/06/TianaNEWJuneBullseyeFunnels.png" data-wow-duration="2s" data-wow-delay="s" alt="">
-				<!-- <article class="text-content">
-					check out <br>
-					my e-courses
-				</article> -->
+				<a href="http://tianagustafson.teachable.com/courses/bullseye-funnels" target="_blank">
+					<img class="img-responsive wow zoomInDown" src="/wp-content/uploads/2016/06/TianaNEWJuneBullseyeFunnels.png" data-wow-duration="2s" data-wow-delay="s" alt="">
+				</a>
 			</figure>
 			<figure class="col-sm-4 col-md-4 col-md-lg">
-				<img class="img-responsive wow bounceInRight" src="/wp-content/uploads/2016/06/TianaNEWJuneGoalswithsoul.png" data-wow-duration="1s" data-wow-delay="0s" alt="">
-				<!-- <article class="text-content">
-					join the facebook <br>
-					community
-				</article> -->
+				<a href="http://tianagustafson.teachable.com/courses/goals-with-soul" target="_blank">
+					<img class="img-responsive wow bounceInRight" src="/wp-content/uploads/2016/06/TianaNEWJuneGoalswithsoul.png" data-wow-duration="1s" data-wow-delay="0s" alt="">
+				</a>
 			</figure>						
 
 		</div>
 
 		<article class="btn-holder text-center col-sm-12 col-md-12 col-lg-12">
-			<a class="btn btn-lg btn-danger" href="#">YES! SHOW ME MORE!</a>
+
+			<a class="btn btn-lg btn-danger"  href="https://tianastar.leadpages.co/leadbox/145df2473f72a2%3A1497094e8b46dc/5655608640405504/" target="_blank">
+				YES! SHOW ME MORE!
+			</a>
+			<script data-leadbox="145df2473f72a2:1497094e8b46dc" data-url="https://tianastar.leadpages.co/leadbox/145df2473f72a2%3A1497094e8b46dc/5655608640405504/" data-config="%7B%7D" type="text/javascript" src="https://tianastar.leadpages.co/leadbox-1465587185.js"></script>
+
 		</article>
 
 	</div>

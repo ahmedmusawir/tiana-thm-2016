@@ -83,31 +83,39 @@
 	<header id="front-pg-header">
 
 		<?php if ( is_home() || is_single() || is_archive() || is_search() || is_404() ) : ?>
-			<img class="img-responsive" src="<?php echo $front_header_image; ?>" alt="tiana img">
+			<img class="img-responsive hidden-xs" src="<?php echo $front_header_image; ?>" alt="tiana img">
+			<img class="img-responsive visible-xs" src="/wp-content/uploads/2016/06/TianaNEWJuneBlock1BG_mobile-version.jpg" alt="">
 
 			<!-- <div class="header-img-container">
 				<div class="col-md-7 col-lg-7">
 					<img class="header-txt-img" src="/wp-content/uploads/2016/06/header-text-img.jpg" alt="">
 				</div>
 			</div> -->
-			<div class="header-text-container hide">
+			<div class="header-text-container">
 
 				<article class="header-text-box">
 					<!-- <img class="header-txt-img img-responsive" src="/wp-content/uploads/2016/06/header-text-img.jpg" alt=""> -->
 
-					<h3>ONLINE MARKETING MADE EASY.</h3>
+				<!-- 	<h3>ONLINE MARKETING MADE EASY.</h3>
 					<h4>
 						Join Thousands of other Entrepreneurs and get
 						Instant Access to our Online Marketing Resources.
-					</h4>
+					</h4> -->
 
 					<article class="header-btn-container block-center">
 					
-						<button type="button" class="btn btn-success btn-lg " data-toggle="modal" data-target="#myModal-header">
+
+						<a class="btn btn-success btn-lg"  href="https://tianastar.leadpages.co/leadbox/145df2473f72a2%3A1497094e8b46dc/5655608640405504/" target="_blank">
+							CLICK HERE TO SIGN UP!
+						</a>
+						<script data-leadbox="145df2473f72a2:1497094e8b46dc" data-url="https://tianastar.leadpages.co/leadbox/145df2473f72a2%3A1497094e8b46dc/5655608640405504/" data-config="%7B%7D" type="text/javascript" src="https://tianastar.leadpages.co/leadbox-1465587185.js"></script>					
+						<!-- <a href="#" class="btn btn-success btn-lg" >
 						  CLICK HERE TO SIGN UP!
-						</button>
-				
-					</article>
+						</a> -->
+						<!-- <button type="button" class="btn btn-success btn-lg " data-toggle="modal" data-target="#myModal-header">
+							  CLICK HERE TO SIGN UP!
+							</button>				
+						</article> -->
 
 
 				</article>			

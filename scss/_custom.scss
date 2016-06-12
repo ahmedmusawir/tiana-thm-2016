@@ -37,8 +37,12 @@ body {
 	}
 
 	@media (max-width: 768px ) {
-		padding-top: 60px;
+		padding-top: 70px;
 	}
+
+	@media (max-width: 450px ) {
+		padding-top: 75px;
+	}	
 
 }
 
@@ -105,6 +109,10 @@ body {
 }
 
 #myModal {
+
+	img {
+		display: none;
+	}
 	.modal-content {
 		background-color: transparent;
 
@@ -142,6 +150,10 @@ body {
 
 #myModal-header {
 
+	img {
+		display: none;
+	}
+
 	.modal-content {
 		// background-color: $tiana-teal;
 		@include background(linear-gradient( lighten( $tiana-teal, 10% ), rgba( gray, .7 ) ) left repeat);
@@ -170,7 +182,7 @@ body {
 
 #popup-form-click {
 
-	min-height: 600px;
+	// min-height: 600px;
 	width: 100%;
 	margin-top: 3rem;
 	padding-left: 0;
@@ -232,6 +244,7 @@ body {
 }
 
 #content {
+
 	font-family: 'Raleway', sans-serif;
 	// color: blue;
 
@@ -244,6 +257,9 @@ body {
 
 	display: none;
 	// border: 1rem solid green;
+
+
+
 }
 
 /**
@@ -294,6 +310,7 @@ body {
 .navbar {
 
 	// border: 1px solid green;
+	border: 1px solid $gray-light;
 
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -303,67 +320,15 @@ body {
 	font-family: 'Raleway', sans-serif;
 
 	@media ( min-width: 1130px ) {
-		// height: 80px;
 	}
 	
-	// .navbar-brand {
-	// 	color: darken( $gray-lighter, 10% );
-	// 	width: 130%;
-	// 	padding: 0;
 
-	// 	// border: 1px solid blue;
-		
-	// 	@media ( max-width: 1139px ) {
-	// 		width: 90%;
-	// 	}
-	// 	@media ( max-width: 630px ) {
-	// 		width: 50%;
-	// 	}
-
-	
-	// 		.logo-holder {
-	// 		// border: 1px solid red;
-
-	// 			img.logo {
-	// 				width: 40%;
-	// 				top: -10;
-	// 				// border: 3px solid yellow;
-	
-	// 				position: absolute;	
-
-	// 				@media ( min-width: 1199px ) {
-	// 					width: 30%;
-	// 					left: 5%;
-	// 				}	
-	// 				@media ( min-width: 1757px ) {
-	// 					width: 25%;
-	// 					left: 5%;
-	// 				}	
-	// 				@media ( max-width: 991px ) {
-	// 					width: 50%;
-	// 					left: 5%;
-	// 				}	
-	// 				@media ( max-width: 630px ) {
-	// 					width: 65%;
-	// 					left: 5%;
-	// 					top: 5;
-	// 				}	
-	// 				@media ( max-width: 530px ) {
-	// 					width: 65%;
-	// 					left: 5%;
-	// 					top: 30px;
-	// 				}	
-	// 			}
-	// 		}
-	// }
 	.navbar-brand {
 		color: darken( $gray-lighter, 10% );
 
-
-
 		.logo-text {
 			font-size: 2.7rem;
-			font-weight: 600;
+			font-weight: 700;
 			padding-left: 1rem;
 
 			color: $tiana-primary;
@@ -379,24 +344,6 @@ body {
 				}
 				@media ( max-width: 503px ) {
 					font-size: 2rem;
-				}
-			}
-			.firefly {
-				font-weight: 400;
-				font-size: 2.3rem;
-				color: lighten( gray, 20% );
-				@media ( max-width: 503px ) {
-					font-size: 1rem;
-				}				
-
-			}
-			.bar {
-				padding-left: 1rem;
-				padding-right: 1rem;
-				font-weight: 200;
-				font-size: 3rem;
-				@media ( max-width: 503px ) {
-					font-size: 1.5rem;
 				}
 			}
 		}
@@ -440,6 +387,11 @@ body {
 	#menu-menu-1 {
 
 		// border: 1px solid green;
+		.courses {
+				a {
+					color: $tiana-red;
+				}
+			}
 
 		li {
 
@@ -451,7 +403,7 @@ body {
 				color: darken( $tiana-primary, 0% );
 				// color: darken( $gray-lighter, 15% );
 				font-size: 1.5rem;
-				font-weight: 600;
+				font-weight: 700;
 				// border: 1px solid red;
 				&:hover {
 					color: $tiana-teal;
@@ -497,6 +449,115 @@ img {
     }
 }
 
+/**
+ *
+ * Page Header Style
+ *
+ */
+#front-pg-header {
+	position: relative;
+	// z-index: -1;
+	
+	border-bottom: 1rem solid $tiana-primary;
+	margin-top: -.9rem;
+
+	.header-img-container {
+		// position: relative;
+		position: absolute;
+		top: -50;
+		.header-txt-img {
+
+		}
+	}
+
+	.header-text-container {
+		// box-shadow: 0px 0px 3px lighten( $tiana-gray, 20% );
+
+		.header-text-box {
+
+			// @include background(linear-gradient( rgba( $silver, .8 ), rgba( $tiana-primary, .5 ) ) left repeat);
+			// font-family: 'Muli', sans-serif;
+			font-family: 'Raleway', sans-serif;
+
+			position: absolute;
+			top: 70%;
+			left: 57%;
+
+			width: 250px;
+			height: 130px;
+			padding-left: 3rem;
+			padding-right: .5rem;
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+
+					@media ( max-width: 1250px ) {
+						top: 65%;
+					}			
+					@media ( max-width: 850px ) {
+						top: 65%;
+						left: 50%;
+					}			
+					@media ( max-width: 767px ) {
+						top: 75%;
+						left: 25%;
+					}			
+					@media ( max-width: 438px ) {
+						top: 70%;
+						left: 20%;
+					}	
+					@media ( max-width: 400px ) {
+						top: 70%;
+						left: 10%;
+					}										
+
+			.header-btn-container {
+
+				padding-top: 5rem;
+				text-align: center;
+					@media ( max-width: 1099px ) {
+						padding-top: 2rem;
+					}	
+					@media ( max-width: 450px ) {
+						padding-top: 1rem;
+					}										
+
+				.btn.btn-success {
+					// height: 120px;
+					padding-left: 2rem;
+					padding-right: 2rem;
+					background-color: $tiana-red;
+					border: none;
+					font-size: 3.5rem;
+
+					&:hover {
+						background-color: darken( $tiana-primary, 0% );
+					}
+
+					@media ( max-width: 1550px ) {
+						font-size: 2.5rem;
+						// height: 80px;
+					}
+					@media ( max-width: 1250px ) {
+						font-size: 2rem;
+						// height: 50px;
+					}
+					@media ( max-width: 600px ) {
+						font-size: 1.2rem;
+						// height: 40px;
+					}					
+
+					@media ( max-width: 450px ) {
+						font-size: 1.5rem;
+						height: 100%;
+						width: 100%;
+					}					
+
+ 				}
+			}
+		}	
+	}
+} 
+
 /*=======================================
 =            Home page style            =
 =======================================*/
@@ -515,9 +576,19 @@ img {
 	.wrapper {
 
 		padding-top: 5rem;
+		text-align: center;
+
+		a {
+
+			color: darken( $tiana-teal, 10% );
+
+			&:hover, &:active {
+				text-decoration: none;
+				color: $tiana-primary;
+			}
+		}
 
 		h2 {
-			text-align: center;
 			color: $tiana-primary;
 			font-size: 3.5rem;
 			font-weight: 700;
@@ -537,6 +608,11 @@ img {
 			}
 
 		}
+		h3 {
+			font-style: italic;
+			font-weight: 600;
+			color: gray;
+		}
 
 		.icon-content {
 
@@ -554,6 +630,14 @@ img {
 				padding-bottom: 10rem;
 			}
 		}
+
+		figure {
+			@include transition(all 1s ease-in-out);
+
+			&:hover {
+				margin-top: -25px;
+			}
+		}		
 	}
 }
 
@@ -646,6 +730,14 @@ img {
 		padding-top: 3rem;
 	}
 
+	figure {
+		@include transition(all 1s ease-in-out);
+
+		&:hover {
+			margin-top: -25px;
+		}
+	}
+
 }
 /*=====  End of Home page style END  ======*/
 
@@ -725,28 +817,7 @@ img {
 			font-size: 3rem;
 			color: darken( $tiana-primary, 0% );
 		}
-	
-	/**
-	 *
-	 * Non Broken Line Handling
-	 *
-	 */
-	
-	/* These are technically the same, but use both */
-	  overflow-wrap: break-word;
-	  word-wrap: break-word;
 
-	  -ms-word-break: break-all;
-	  /* This is the dangerous one in WebKit, as it breaks things wherever */
-	  word-break: break-all;
-	  /* Instead use this non-standard one: */
-	  word-break: break-word;
-
-	  /* Adds a hyphen where the word breaks, if supported (No Blink) */
-	  -ms-hyphens: auto;
-	  -moz-hyphens: auto;
-	  -webkit-hyphens: auto;
-	  hyphens: auto;    
 }
 
 /**
@@ -756,11 +827,7 @@ img {
  */
 
 .blog-post {
-	// background-color: rgba( darken( $silver, 0% ), .9);
-	// border: 1px solid blue;
 
-	// background-color: rgba( lighten( $gray-light, 50% ), .8);
-	// padding: 1rem;
 	margin-bottom: 1rem;
 	margin-top: 5rem;
 	margin-right: 0rem;
@@ -768,31 +835,14 @@ img {
 	font-family: 'Raleway', sans-serif;
 	
 	.entry-header {
-		// @include background(radial-gradient( rgba( $ghost, .8 ), rgba( $tiana-primary, .9 ) ) left repeat);
-		// background-color: rgba( darken( $tiana-primary, 0% ), .9);
-		// box-shadow: 2px 2px 4px $gray-light;
-
-		// margin-bottom: 2.5rem;
-		// margin-left: 1.3rem;
-		// margin-right: 1.3rem;
-		// border: 1px solid lighten( $tiana-primary, 10% );
-
-
 
 		h1, h2 {
-			// font-family: 'Lora', serif;
-			// font-family: 'Cabin', sans-serif;
-			// font-family: 'Muli', sans-serif;
 			font-family: 'Raleway', sans-serif;
 			text-transform: uppercase;
 			
 			font-size: 2.2rem;
-			// font-variant: small-caps;
 			font-weight: 700;
 			padding-top: 0rem;
-			// padding-bottom: 1rem;
-			// padding-left: 2rem;
-			// padding-right: 1rem;
 
 			a {
 				color: lighten( $tiana-teal, 0% );
@@ -843,7 +893,7 @@ img {
 	}
 
 	.entry-content {
-		// border: 1px solid yellow;
+
 	}
 
 	.only-text {
@@ -851,15 +901,12 @@ img {
 		padding-right: 1.5rem;
 		padding-top: 2rem;
 		p {
-			// font-family: 'Poiret One', cursive;
-			// font-family: 'Muli', sans-serif;
 			font-family: 'Raleway', sans-serif;
 
 			font-size: 1.8rem;
 			font-variant: 500;
 			color: lighten( $tiana-gray, 25% );
 			padding-top: 2rem;
-			// border: 1px solid red;	
 		}
 	}
 
@@ -881,28 +928,8 @@ img {
 		}
 	}
 
-	/**
-	 *
-	 * Non Broken Line Handling
-	 *
-	 */
-	
-	/* These are technically the same, but use both */
-	  overflow-wrap: break-word;
-	  word-wrap: break-word;
-
-	  -ms-word-break: break-all;
-	  /* This is the dangerous one in WebKit, as it breaks things wherever */
-	  word-break: break-all;
-	  /* Instead use this non-standard one: */
-	  word-break: break-word;
-
-	  /* Adds a hyphen where the word breaks, if supported (No Blink) */
-	  -ms-hyphens: auto;
-	  -moz-hyphens: auto;
-	  -webkit-hyphens: auto;
-	  hyphens: auto;    
 }
+
 //**** Post footer icons
 
 .cat-links:before {
@@ -1491,8 +1518,8 @@ img {
  */
 
 .footer-container {
-	background-color: darken( $tiana-light-gray, 2% );
-	// border: 1px solid red;
+	// background-color: darken( $tiana-light-gray, 2% );
+	background: url("/wp-content/uploads/2016/06/footer-bg.jpg");
 
 }
 #footer-main {
@@ -1507,7 +1534,7 @@ img {
 		h4 {
 			font-size: 1.4rem;
 			font-weight: 700;
-			line-height: 1rem;
+			line-height: 1.4rem;
 
 		}
 		

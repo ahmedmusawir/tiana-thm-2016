@@ -238,6 +238,8 @@ add_filter( 'comments_open', 'tweakjp_rm_comments_att', 10 , 2 );
  *
  */
 
+/*
+
 add_filter( 'nav_menu_link_attributes', 'my_menu_atts', 10, 3 );
 function my_menu_atts( $atts, $item, $args )
 {
@@ -254,7 +256,7 @@ function my_menu_atts( $atts, $item, $args )
 }
 
 
-
+*/
 
 
 

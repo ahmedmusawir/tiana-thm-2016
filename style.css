@@ -5928,7 +5928,10 @@ body {
       padding-top: 50px; } }
   @media (max-width: 768px) {
     body {
-      padding-top: 60px; } }
+      padding-top: 70px; } }
+  @media (max-width: 450px) {
+    body {
+      padding-top: 75px; } }
 
 /**
  *
@@ -5979,6 +5982,8 @@ body {
     #popup-form .popup-text p {
       font-size: 1.5rem; }
 
+#myModal img {
+  display: none; }
 #myModal .modal-content {
   background-color: transparent; }
 #myModal .modal-header {
@@ -5998,6 +6003,8 @@ body {
     background-color: transparent;
     border-bottom: 2px solid #e5e5e5; }
 
+#myModal-header img {
+  display: none; }
 #myModal-header .modal-content {
   background: -webkit-linear-gradient(#84d3ce, rgba(128, 128, 128, 0.7)) left repeat;
   background: linear-gradient(#84d3ce, rgba(128, 128, 128, 0.7)) left repeat; }
@@ -6017,7 +6024,6 @@ body {
   filter: alpha(opacity=80); }
 
 #popup-form-click {
-  min-height: 600px;
   width: 100%;
   margin-top: 3rem;
   padding-left: 0;
@@ -6103,6 +6109,7 @@ body {
   margin: 0 -10px; }
 
 .navbar {
+  border: 1px solid #777777;
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #f9fbfc;
@@ -6113,7 +6120,7 @@ body {
     color: #d5d5d5; }
     .navbar .navbar-brand .logo-text {
       font-size: 2.7rem;
-      font-weight: 600;
+      font-weight: 700;
       padding-left: 1rem;
       color: #383D66; }
       @media (max-width: 503px) {
@@ -6126,21 +6133,6 @@ body {
         @media (max-width: 503px) {
           .navbar .navbar-brand .logo-text .tiana-txt {
             font-size: 2rem; } }
-      .navbar .navbar-brand .logo-text .firefly {
-        font-weight: 400;
-        font-size: 2.3rem;
-        color: #b3b3b3; }
-        @media (max-width: 503px) {
-          .navbar .navbar-brand .logo-text .firefly {
-            font-size: 1rem; } }
-      .navbar .navbar-brand .logo-text .bar {
-        padding-left: 1rem;
-        padding-right: 1rem;
-        font-weight: 200;
-        font-size: 3rem; }
-        @media (max-width: 503px) {
-          .navbar .navbar-brand .logo-text .bar {
-            font-size: 1.5rem; } }
   .navbar .navbar-toggle {
     border: 3px solid #aae0dd; }
     .navbar .navbar-toggle .icon-bar {
@@ -6156,12 +6148,14 @@ body {
       color: #bbbbbb; }
       .navbar .dropdown-menu li a:hover {
         background-color: #4d4d4d; }
+  .navbar #menu-menu-1 .courses a {
+    color: #bb324a; }
   .navbar #menu-menu-1 li:hover {
     background-color: transparent; }
   .navbar #menu-menu-1 li a {
     color: #383d66;
     font-size: 1.5rem;
-    font-weight: 600; }
+    font-weight: 700; }
     .navbar #menu-menu-1 li a:hover {
       color: #5FC5BF; }
     @media (min-width: 1200px) {
@@ -6186,6 +6180,80 @@ img {
 @media (max-width: 800px) {
   .admin-bar .navbar-fixed-top {
     margin-top: 46px; } }
+/**
+ *
+ * Page Header Style
+ *
+ */
+#front-pg-header {
+  position: relative;
+  border-bottom: 1rem solid #383D66;
+  margin-top: -.9rem; }
+  #front-pg-header .header-img-container {
+    position: absolute;
+    top: -50; }
+  #front-pg-header .header-text-container .header-text-box {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 70%;
+    left: 57%;
+    width: 250px;
+    height: 130px;
+    padding-left: 3rem;
+    padding-right: .5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+    @media (max-width: 1250px) {
+      #front-pg-header .header-text-container .header-text-box {
+        top: 65%; } }
+    @media (max-width: 850px) {
+      #front-pg-header .header-text-container .header-text-box {
+        top: 65%;
+        left: 50%; } }
+    @media (max-width: 767px) {
+      #front-pg-header .header-text-container .header-text-box {
+        top: 75%;
+        left: 25%; } }
+    @media (max-width: 438px) {
+      #front-pg-header .header-text-container .header-text-box {
+        top: 70%;
+        left: 20%; } }
+    @media (max-width: 400px) {
+      #front-pg-header .header-text-container .header-text-box {
+        top: 70%;
+        left: 10%; } }
+    #front-pg-header .header-text-container .header-text-box .header-btn-container {
+      padding-top: 5rem;
+      text-align: center; }
+      @media (max-width: 1099px) {
+        #front-pg-header .header-text-container .header-text-box .header-btn-container {
+          padding-top: 2rem; } }
+      @media (max-width: 450px) {
+        #front-pg-header .header-text-container .header-text-box .header-btn-container {
+          padding-top: 1rem; } }
+      #front-pg-header .header-text-container .header-text-box .header-btn-container .btn.btn-success {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        background-color: #bb324a;
+        border: none;
+        font-size: 3.5rem; }
+        #front-pg-header .header-text-container .header-text-box .header-btn-container .btn.btn-success:hover {
+          background-color: #383d66; }
+        @media (max-width: 1550px) {
+          #front-pg-header .header-text-container .header-text-box .header-btn-container .btn.btn-success {
+            font-size: 2.5rem; } }
+        @media (max-width: 1250px) {
+          #front-pg-header .header-text-container .header-text-box .header-btn-container .btn.btn-success {
+            font-size: 2rem; } }
+        @media (max-width: 600px) {
+          #front-pg-header .header-text-container .header-text-box .header-btn-container .btn.btn-success {
+            font-size: 1.2rem; } }
+        @media (max-width: 450px) {
+          #front-pg-header .header-text-container .header-text-box .header-btn-container .btn.btn-success {
+            font-size: 1.5rem;
+            height: 100%;
+            width: 100%; } }
+
 /*=======================================
 =            Home page style            =
 =======================================*/
@@ -6193,9 +6261,14 @@ img {
   min-height: 400px;
   background-color: #eff4f7; }
   .above-blog-block-2 .wrapper {
-    padding-top: 5rem; }
+    padding-top: 5rem;
+    text-align: center; }
+    .above-blog-block-2 .wrapper a {
+      color: #40b1aa; }
+      .above-blog-block-2 .wrapper a:hover, .above-blog-block-2 .wrapper a:active {
+        text-decoration: none;
+        color: #383D66; }
     .above-blog-block-2 .wrapper h2 {
-      text-align: center;
       color: #383D66;
       font-size: 3.5rem;
       font-weight: 700;
@@ -6211,6 +6284,10 @@ img {
         width: 40%;
         /* or 100px */
         border-bottom: 0.4rem solid #5FC5BF; }
+    .above-blog-block-2 .wrapper h3 {
+      font-style: italic;
+      font-weight: 600;
+      color: gray; }
     .above-blog-block-2 .wrapper .icon-content {
       padding-top: 5rem; }
       .above-blog-block-2 .wrapper .icon-content img {
@@ -6222,6 +6299,12 @@ img {
         font-weight: 500;
         font-style: italic;
         padding-bottom: 10rem; }
+    .above-blog-block-2 .wrapper figure {
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out; }
+      .above-blog-block-2 .wrapper figure:hover {
+        margin-top: -25px; }
 
 .below-blog-block-1 {
   min-height: 400px;
@@ -6272,6 +6355,12 @@ img {
       border-bottom: 0.4rem solid #5FC5BF; }
   .below-blog-block-2 .icon-content {
     padding-top: 3rem; }
+  .below-blog-block-2 figure {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out; }
+    .below-blog-block-2 figure:hover {
+      margin-top: -25px; }
 
 /*=====  End of Home page style END  ======*/
 /**
@@ -6317,29 +6406,10 @@ img {
  * Page Styles
  *
  */
-.page-header {
-  /**
-   *
-   * Non Broken Line Handling
-   *
-   */
-  /* These are technically the same, but use both */
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  -ms-word-break: break-all;
-  /* This is the dangerous one in WebKit, as it breaks things wherever */
-  word-break: break-all;
-  /* Instead use this non-standard one: */
-  word-break: break-word;
-  /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto; }
-  .page-header h1 {
-    text-align: center;
-    font-size: 3rem;
-    color: #383d66; }
+.page-header h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #383d66; }
 
 /**
  *
@@ -6351,25 +6421,7 @@ img {
   margin-top: 5rem;
   margin-right: 0rem;
   margin-left: .15rem;
-  font-family: 'Raleway', sans-serif;
-  /**
-   *
-   * Non Broken Line Handling
-   *
-   */
-  /* These are technically the same, but use both */
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  -ms-word-break: break-all;
-  /* This is the dangerous one in WebKit, as it breaks things wherever */
-  word-break: break-all;
-  /* Instead use this non-standard one: */
-  word-break: break-word;
-  /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto; }
+  font-family: 'Raleway', sans-serif; }
   .blog-post .entry-header h1, .blog-post .entry-header h2 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -6820,7 +6872,7 @@ img {
  *
  */
 .footer-container {
-  background-color: #f2f6f9; }
+  background: url("/wp-content/uploads/2016/06/footer-bg.jpg"); }
 
 #footer-main {
   text-align: center; }
@@ -6830,7 +6882,7 @@ img {
     #footer-main #copyright h4 {
       font-size: 1.4rem;
       font-weight: 700;
-      line-height: 1rem; }
+      line-height: 1.4rem; }
   #footer-main .footer-body {
     padding-top: 3rem; }
   #footer-main .widget-footer {
