@@ -131,15 +131,31 @@ get_header(); ?>
 		
 		<h2>Learn the Exact Step By Step Systems behind</h2>
 		<h2>creating your own profitable online marketing funnel.</h2>
-
+		<br><br>
 		<div class="icon-content">
 
 			<figure class="col-sm-12 col-md-12 col-12">
-				<img class="center-block img-responsive wow zoomIn" src="/wp-content/uploads/2016/06/TianaBullseyeImage.png" data-wow-duration="2s" data-wow-delay="0s" alt="">
+				<!-- <img class="center-block img-responsive wow zoomIn" src="/wp-content/uploads/2016/06/TianaBullseyeImage.png" data-wow-duration="2s" data-wow-delay="0s" alt=""> -->
+				<!-- <iframe src="https://player.vimeo.com/video/171235632" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+
+					<div class="col-md-2 col-lg-2"></div>
+						<div class="col-md-8 col-lg-8">
+							<div class="embed-responsive embed-responsive-16by9">
+							  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/171235632"></iframe>
+							</div>
+						</div>	
+					<div class="col-md-2 col-lg-2"></div>
+
+
 			</figure>
+			<!-- 16:9 aspect ratio -->
+		<br><br>
+		<br><br>
+		<br><br>
+	
 
 		</div>
-
+		
 		<h1>HEY DREAM ARCHER - TIME TO FOLLOW YOUR ARROW!</h1>
 
 	</div>

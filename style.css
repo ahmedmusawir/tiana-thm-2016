@@ -6321,8 +6321,8 @@ img {
       text-align: center;
       font-size: 3.5rem;
       font-weight: 700; }
-    .below-blog-block-1 .wrapper .icon-content figure img {
-      width: 30%; }
+    .below-blog-block-1 .wrapper .icon-content figure iframe {
+      padding-bottom: 5rem; }
     @media (max-width: 768px) {
       .below-blog-block-1 .wrapper h1 {
         font-size: 3rem; }
