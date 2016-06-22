@@ -789,6 +789,16 @@ img {
 
 		.nav-links {
 
+			// font-size: 3rem;
+			a {
+				color: darken( $tiana-teal, 10% );
+				font-weight: 600;
+
+				&:hover {
+					color: $tiana-teal;
+				}
+			}
+
 			@include clearfix();
 			padding-bottom: 1.5rem;
 
@@ -966,6 +976,33 @@ img {
 
 	// background-color: rgba( lighten( $gray-light, 45% ), .8);
 
+	#single-post-nav {
+
+		// border: 1rem solid red;
+
+
+		h2 {
+			margin-top: 1rem;
+			font-size: 2rem;
+			font-weight: 300;
+			font-style: italic;
+			color: $tiana-teal;
+
+			@media ( max-width: 550px ) {
+				display: none;
+			}				
+		}
+
+		i {
+			color: $tiana-teal;
+			font-size: 3rem;
+
+			@media ( min-width: 551px ) {
+				display: none;
+			}
+		}
+	}
+
 	h1, h2, h3, h4, h5 {
 		color: lighten( $tiana-primary, 5% );
 		font-size: 3.5rem;
@@ -1026,6 +1063,144 @@ img {
 		}
 	}	
 
+	#single-post-form {
+
+		// min-height: 600px;
+		width: 100%;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom: 5rem;
+		background-color: lighten( $gray-light, 48% );
+
+		// border: 1rem solid $tiana-primary;
+
+		.img-holder {
+			img {
+				width: 100%;
+			}
+		}
+
+		.form-container {
+			// border: 1px solid red;
+			text-align: center;
+			
+			input {
+				width: 96%;
+				height: 5rem;
+				margin-bottom: 1rem;
+				margin-left: 1rem;
+				margin-right: 1rem;
+
+				@include placeholder {
+				   // color: red;
+					font-size: 1.8rem;
+					padding-left: 1rem;
+					text-align: center;
+				}
+			}
+
+			#pop-submit {
+				font-size: 120%;
+				color: white;
+				background-color: lighten( $tiana-teal, 20% );
+				border: 1px solid $tiana-teal;
+
+				&:hover {
+					background-color: lighten( $tiana-teal, 10% );
+
+				}
+				// border: 1px solid red;
+			}
+
+			.infusion-field-input-container {
+				// border: 1px solid lighten( $tiana-gray, 40% );
+				border: 1px solid lighten( $tiana-teal, 0% );
+				
+			}
+		}
+
+		.popup-text {
+			text-align: center;
+			padding-right: 1rem;
+			padding-left: 1rem;
+			color: darken( white, 10% );
+
+			h4 {
+				font-size: 2.2rem;
+			}
+			p {
+				font-size: 1.9rem;
+				color: $tiana-red;
+			}
+		}
+
+	}	
+
+	#single-post-author-block {
+
+		padding-top: 3rem;
+		padding-bottom: 5rem;
+
+		img {
+			width: 15%;
+			margin-right: 3rem;
+		}
+		h5 {
+			font-size: 2.2rem;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+		p.author-txt {
+			font-size: 1.6rem;
+		}
+
+		.author-social {
+
+			padding-top: 2rem;
+			float: right;
+			// text-align: center;
+
+			li {
+				display: inline-block;
+
+				i {
+					padding-left: 2rem;
+				}
+			}
+		}
+
+	}
+
+	#single-related-post-block {
+		// border: 1rem solid red;
+		@include clearfix();
+
+
+		padding-top: 0rem;
+		padding-bottom: 5rem;
+
+		h5 {
+			font-size: 2rem;
+			a {
+			}
+		}
+		h4 {
+			font-size: 3rem;
+			font-weight: 700;
+			text-align: center;
+			color: $tiana-teal;
+			padding-bottom: 3rem;
+		}
+		img {
+			@include transition(all .5s ease-in-out);
+
+			&:hover {
+				opacity: .7;
+			}
+		}
+	}		
 }
 
 /**

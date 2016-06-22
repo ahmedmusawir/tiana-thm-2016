@@ -149,13 +149,9 @@ get_header(); ?>
 
 			</figure>
 			<!-- 16:9 aspect ratio -->
-		<br><br>
-		<br><br>
-		<br><br>
-	
 
 		</div>
-		
+
 		<h1>HEY DREAM ARCHER - TIME TO FOLLOW YOUR ARROW!</h1>
 
 	</div>
